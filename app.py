@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 api_key = os.getenv('api_key')
-print(api_key)
 
 cities = ["New York", "Boston", "San Francisco", "Los Angeles", "Seattle", "Chicago", "Miami", "Las Vegas", "Denver", "Minneapolis"]
 data = []
